@@ -1,4 +1,4 @@
-# Challenge: The essence of (digital) Knowledge / Knowledge Validation in Action
+# Challenge: bSDD enhancer
 
 ## Champions
 - Artur Tomczak, buildingSMART International 
