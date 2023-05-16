@@ -1,4 +1,4 @@
-# Challenge: bSDD enhancer
+# Challenge: Data Dictionary
 
 ## Champions
 - Artur Tomczak, buildingSMART International 
