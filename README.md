@@ -41,7 +41,7 @@ Here are the examples mentioned above:
 - Uniclass namespace: https://identifier.buildingsmart.org/uri/nbs/uniclass2015-1/ 
 - Uniclass “Wall and barrier elements”: https://search.bsdd.buildingsmart.org/Classification/Index/6670 
 - CCI Construction namespace: https://identifier.buildingsmart.org/uri/molio/cciconstruction-1.0/  
--- CCI Construction wall page: https://search.bsdd.buildingsmart.org/Classification/Index/75100  
+  - CCI Construction wall page: https://search.bsdd.buildingsmart.org/Classification/Index/75100  
 
 ### Supplementary Resources
 
