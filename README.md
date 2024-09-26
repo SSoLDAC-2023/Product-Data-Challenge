@@ -11,7 +11,7 @@ The bSDD - buildingSMART Data Dictionary - is a free service for hosting such da
 
 bSDD content can be browsed using the search page [1], but the primary interface to bSDD is a REST API [3]. The API can return all data in JSON or HTML format, and the classifications can also be requested as JSON or RDF/Turtle entities using their semantic URL. There is also a prototype of a GraphQL API available [4]. 
 
-Ontotext has reviewed bSDD, and made a report on the limitations and possibilities for improvement of the JSON, RDF and GraphQL options, and proposed an improved GraphQL API and SPARQL endpoint for bSDD, available for testing [5]. 
+Ontotext has reviewed bSDD, and made a report on the limitations and possibilities for improvement of the JSON, RDF and GraphQL representations, and proposed an improved GraphQL API and SPARQL endpoint for bSDD ("Semantic bSDD") that is available for testing [5]. 
 
 ### Objectives 
 
@@ -31,23 +31,24 @@ While working on solving the challenge, please note the limitations and possible
 - What could make bSDD more F.A.I.R. [6]? 
 
 ## Datasets
-https://bsdd.buildingsmart.org 
-https://bsdd.ontotext.com/ 
+- https://bsdd.buildingsmart.org
+- https://bsdd.ontotext.com/ : GraphQL and SPARQL. An RDF dump can also be provided
 
-In particular, here are the examples mentioned above: 
+### Examples
+Here are the examples mentioned above: 
 - IFC namespace: https://identifier.buildingsmart.org/uri/buildingsmart/ifc-4.3/  
 - IFC IfcWall page: https://search.bsdd.buildingsmart.org/Classification/Index/71147 
 - Uniclass namespace: https://identifier.buildingsmart.org/uri/nbs/uniclass2015-1/ 
 - Uniclass “Wall and barrier elements”: https://search.bsdd.buildingsmart.org/Classification/Index/6670 
 - CCI Construction namespace: https://identifier.buildingsmart.org/uri/molio/cciconstruction-1.0/  
--- CCI Construction wall page: https://search.bsdd.buildingsmart.org/Classification/Index/75100  
+  - CCI Construction wall page: https://search.bsdd.buildingsmart.org/Classification/Index/75100  
 
-## Supplementary Resources
+### Supplementary Resources
 
-1. Search page of bSDD https://search.bsdd.buildingsmart.org/  
+1. bSDD Search page https://search.bsdd.buildingsmart.org/  
 2. bSDD documentation on github: https://github.com/buildingSMART/bSDD    
 3. bSDD Rest API (interactive) documentation: https://test.bsdd.buildingsmart.org/swagger/index.html   
-4. bSDD GraphQL API interactive console: https://test.bsdd.buildingsmart.org/graphiql/   
-5. Ontotext report “Semantic bSDD” https://bsdd.ontotext.com/ with detailed analysis of possible improvements, prototypes of new SPARQL endpoint, GraphQL endpoint, schema and graph visualizations. See https://bsdd.ontotext.com/README.html for detailed description, and https://bsdd.ontotext.com/README.html#future-work for further improvement ideas. 
+4. bSDD GraphQL API interactive console: https://test.bsdd.buildingsmart.org/graphiql/
+5. Ontotext report “Semantic bSDD” https://bsdd.ontotext.com/ with detailed analysis of possible improvements, prototype of new SPARQL endpoint, new GraphQL endpoint, schema and graph visualizations. See https://bsdd.ontotext.com/README.html for detailed description, and https://bsdd.ontotext.com/README.html#future-work for ideas for further improvements.
 6. FAIR data principles: https://www.go-fair.org/fair-principles/    
 7. Draft bSDD ontology: https://github.com/buildingSMART/bSDD/blob/master/RDF/preview-bsdd-rdfs-0.4.ttl  
